@@ -1,0 +1,26 @@
+.introduction {
+    background-color: lightgreen;
+    color: blueviolet;
+}
+/*This is the part that I found the most difficult, after draw my map and display it on
+my HTML website, I find that the map is covering my other section and after several times
+I find that we need to set position to "static" for normal flow of the document
+"static" is a default value
+
+After that I could manually adjust the size and position of my map*/
+.map {
+    width: 1500px;
+    height: 600px;
+    left: 10%;
+    background-color: white;
+}
+
+.legend {
+    background-color: white;
+}
+
+.citation {
+    background-color: lightgrey;
+    color: blue;
+}
+
